@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Georgia, serif";
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -31,15 +31,15 @@ body {
     "banner banner"
     "banner banner"
     "figone figtwo";
+    grid-gap: 1rem;
 }
 
 figure {
-   margin: 0;
+  margin: 0;
 }
 
 .pano {
   grid-area: banner;
-  margin-bottom: 1rem;
 }
 
 main {
@@ -57,11 +57,12 @@ ul {
   flex-direction: row;
   list-style: none;
   padding: 1rem;
+  margin: 0;
 }
 
 a {
   color: #fff;
-  padding: 1rem;
+  padding-right: 2rem;
   font-size: 2rem;
   font-family: "Patua One", sans-serif;
 }
@@ -72,8 +73,7 @@ a {
   width: 14rem;
   z-index: 10;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  margin: 0;
 }
 
 h2 {
